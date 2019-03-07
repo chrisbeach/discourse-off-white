@@ -1,0 +1,33 @@
+body {
+    background-color: #f9f9f9;
+}
+
+div.list-container, .topic-post .topic-avatar, table tbody {
+    background-color: white;
+}
+.topic-post .post-menu-area {
+    background: linear-gradient(to bottom, white 60%, #fafafa 100%);
+}
+.topic-body.highlighted {
+    animation: background-fade-to-white-highlight 2.0s ease-out;
+}
+
+@keyframes background-fade-to-white-highlight {
+  0% {
+    background-color: $tertiary-low;
+  }
+  100% {
+    background-color: white;
+  }
+}
+.topic-post .post-actions {
+  margin-bottom: 0;
+}
+.topic-post .post-menu-area {
+  margin: 0;
+  padding: 10px 0;
+}
+.post-links-container .post-links {
+  margin-top: 0;
+  padding-top: 20px;
+}

@@ -1,0 +1,16 @@
+.topic-post article {
+    background-color: white;
+}
+.topic-post article {
+    padding-bottom: 0;
+}
+.topic-body .post-menu-area {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.topic-post article, .topic-body .post-menu-area {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
