@@ -42,4 +42,6 @@ div.list-container, .topic-post .topic-avatar, table tbody {
 thead, .table-heading {
   background: linear-gradient(to bottom, #f9f9f9 0%, #f0f0f0 100%);
 }
-
+.admin-container, .dashboard-next.admin-contents {
+  padding: 10px;
+}
